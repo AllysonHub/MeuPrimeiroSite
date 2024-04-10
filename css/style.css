@@ -1,12 +1,33 @@
 body{
-    background-color: skyblue;
-    color: black;
-    font-weight: bold;
+    background-color: rgb(99, 164, 250);
 }
-
-img{
-    display: block;
-  			margin-left: auto;
-  			margin-right: auto;
-  			width: 40%;
+header{
+    background-color: blue;
+    padding: 3%;
+}
+/* classe atribuida para a Div que vai receber o logotipo*/
+.logo{
+    background-color: rgb(255, 204, 0);
+}
+nav{
+    background-color: lime;
+}
+main{
+    background-color: rgb(157, 71, 186);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+section{
+    background-color: lightseagreen;
+}
+footer{
+    background-color: aquamarine;
+    padding: 3%;
+}
+.cabecalho{
+    padding: 3%;
+}
+.rodape{
+    padding: 3%;
 }
