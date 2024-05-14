@@ -7,7 +7,7 @@ header{
 }
 /* classe atribuida para a Div que vai receber o logotipo*/
 .logotopo{
-        width: 10%;
+        width: 25%;
 }
 
 nav{
@@ -128,14 +128,4 @@ nav ul li a {
     color: #ffffff;
     background-color: #000000;
     border: 1px solid #000000;
-}
-
-
-
-#audioContainer {
-    display: none; /* Esconde o elemento de áudio por padrão */
-}
-
-#audioContainer.mostrar {
-    display: block; /* Mostra o elemento de áudio quando a classe "mostrar" é aplicada */
 }
