@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(99, 164, 250);
+    background-color: rgb(0, 0, 0);
 }
 header{
     background-color: black;
@@ -11,7 +11,8 @@ header{
 }
 
 nav{
-    background-color: #ffffff;
+    background-color: #4b4b4b;
+    color: white;
 }
 main{
     background-color: rgb(157, 71, 186);
@@ -20,11 +21,14 @@ main{
     margin-right: auto;
 }
 section{
-    background-color: lightseagreen;
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
 footer{
-    background-color: aquamarine;
+    background-color: #4b4b4b;
     padding: 3%;
+    color: white;
+    text-align: center;
 }
 .cabecalho{
     padding: 3%;
@@ -65,15 +69,16 @@ footer{
 }
 
 .col_3{
-    width: 28%;
-    height: auto;
-    padding: 1%;
+    width: 25%;
+}
+
+.col_3 p{
+    font-size: 1rem;
+    text-align: center;
 }
 
 .imggaleria{
-    width: 20px;
-    height: 20px;
+    width: 90%;
     margin-left: 1%;
     margin-right: 1%;
-    
 }
