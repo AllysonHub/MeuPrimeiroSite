@@ -13,12 +13,17 @@ header{
 nav{
     background-color: #4b4b4b;
     color: white;
+    align-items: center;
+    
 }
+
 main{
     background-color: rgb(253, 228, 0);
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    border: 2px solid #ffffff; /* Adiciona uma borda de 2px sólida branca */
+    
     
 }
 section{
@@ -32,7 +37,9 @@ footer{
     text-align: center;
 }
 .cabecalho{
-    padding: 3%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .rodape{
     padding: 3%;
@@ -83,4 +90,52 @@ footer{
     width: 90%;
     margin-left: 1%;
     margin-right: 1%;
+}
+
+.linha{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+@media screen and ( max-width: 768px){
+    .linha{
+        width: 100%;
+        flex-direction: column;
+    }
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline; /* Faz os itens ficarem lado a lado */
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px; /* Espaçamento entre os itens */
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #000000;
+}
+
+
+
+#audioContainer {
+    display: none; /* Esconde o elemento de áudio por padrão */
+}
+
+#audioContainer.mostrar {
+    display: block; /* Mostra o elemento de áudio quando a classe "mostrar" é aplicada */
 }
