@@ -8,6 +8,7 @@ header{
 /* classe atribuida para a Div que vai receber o logotipo*/
 .logotopo{
         width: 25%;
+        
 }
 
 nav{
@@ -69,7 +70,7 @@ footer{
     padding: 1%;
     font-size: 20px;
 }
-
+/*==================================IMAGENS====================================================*/
 .linha{
     display: flex;
     flex-flow: row wrap;
@@ -98,12 +99,13 @@ footer{
     justify-content: space-around;
 }
 
-@media screen and ( max-width: 768px){
+@media screen and ( max-width: 768px){/*se a resolucao for menor q 768p as imagens ficam em coluna*/
     .linha{
         width: 100%;
         flex-direction: column;
     }
 }
+/*==================================IMAGENS====================================================*/
 
 .menu{
     display: flex;
@@ -146,5 +148,6 @@ a:link, a:visited {
 	background-color: rgb(255, 255, 255);
 	color: rgb(0, 0, 0);
   }
+
 
  
