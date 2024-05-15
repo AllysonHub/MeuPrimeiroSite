@@ -31,7 +31,7 @@ section{
     color: white;
 }
 footer{
-    background-color: #4b4b4b;
+    background-color: transparent;
     padding: 3%;
     color: white;
     text-align: center;
@@ -119,6 +119,7 @@ nav ul {
 
 nav ul li {
     display: inline; /* Faz os itens ficarem lado a lado */
+   
 }
 
 nav ul li a {
@@ -138,6 +139,7 @@ a:link, a:visited {
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
+    border-radius: 15px;
   }
   
   a:hover, a:active {
