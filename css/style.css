@@ -11,7 +11,7 @@ header{
 }
 
 nav{
-    background-color: #4b4b4b;
+    background-color: #000000;
     color: white;
     align-items: center;
     
@@ -129,3 +129,20 @@ nav ul li a {
     background-color: #000000;
     border: 1px solid #000000;
 }
+
+a:link, a:visited {
+	background-color: #000000ad;  /*rgba(145, 145, 145, 0.678)*/
+	color: rgb(253, 228, 0);
+	border: 2px solid rgb(255, 255, 255);
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+  }
+  
+  a:hover, a:active {
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+  }
+
+ 
