@@ -22,6 +22,7 @@ nav{
     color: white;
     align-items: center;
     
+    
 }
 
 main{
@@ -68,7 +69,7 @@ footer{
 }
 
 .subtitulo{
-    font-size: 45px;
+    font-size: 4rem;
     padding: 1%;
     
 }
@@ -118,13 +119,17 @@ footer{
     display: flex;
     flex-direction: row;
     font-family: 'Poetsen One', 'regular 400';
+    
 
 }
 
+
 nav ul {
+    
     list-style-type: none;
     padding: 0;
     margin: 0;
+    
 }
 
 nav ul li {
