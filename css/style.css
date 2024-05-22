@@ -84,10 +84,12 @@ footer{
     flex-flow: row wrap;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .col_3{
     width: 25%;
+    
 }
 
 .col_3 p{
