@@ -177,4 +177,7 @@ a:hover, a:active {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
+.paragrafo01{
+    font-size: 1rem;
+    padding: 1%;
+}
