@@ -4,6 +4,9 @@ body{
 header{
     background-color: black;
     padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .poetsen-one-regular {
     font-family: "Poetsen One", sans-serif;
@@ -24,6 +27,7 @@ nav{
     align-items: center;
     margin-left: auto;
     margin-right: 9%;
+
     
 }
 
@@ -51,6 +55,7 @@ footer{
     display: flex;
     flex-direction: row;
     align-items: center;
+    box-sizing: border-box;
 }
 .rodape{
     padding: 3%;
@@ -110,7 +115,7 @@ footer{
     height: auto;
     margin-left: 2%;
     margin-right: 2%;
-    padding: 2%;
+    padding: 3%;
 }
 
 @media screen and (max-width: 768px) {
@@ -122,7 +127,7 @@ footer{
     }
   }
 
-  @media only screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     /* For mobile phones: */
     [class*="col-"] {
       width: 100%;
@@ -148,7 +153,7 @@ nav ul {
 }
 
 nav ul li {
-    display: inline; /* Faz os itens ficarem lado a lado */
+    display: inline-block; /* Faz os itens ficarem lado a lado */
     
     
    
@@ -163,7 +168,7 @@ nav ul li a {
     border: 1px solid #000000;
 }
 
-a:link, a:visited {
+ a:link, a:visited {
 	background-color: #000000ad;
 	color: rgb(253, 228, 0);
 	border: 2px solid rgb(255, 255, 255);
@@ -172,8 +177,8 @@ a:link, a:visited {
 	text-decoration: none;
 	display: inline-block;
     border-radius: 15px;
-  }
-  
+  }   
+
 a:hover, a:active {
 	background-color: rgb(255, 255, 255);
 	color: rgb(0, 0, 0);
@@ -192,3 +197,12 @@ a:hover, a:active {
     padding: 1%;
 }
 
+@media only screen and (max-width: 974px) {
+    
+    a{
+        display: inline;
+    }
+    nav{
+        text-align: center;
+    }
+}
