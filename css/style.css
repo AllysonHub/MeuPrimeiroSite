@@ -25,8 +25,6 @@ nav{
     background-color: #000000;
     color: white;
     align-items: center;
-    margin-left: auto;
-    margin-right: 9%;
 
     
 }
@@ -83,7 +81,7 @@ footer{
 
 .paragrafo{
     padding: 1%;
-    font-size: 20px;
+    font-size: 1rem;
 }
 /*==================================IMAGENS====================================================*/
 .linha{
@@ -149,11 +147,13 @@ nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    display: flex;
     
 }
 
 nav ul li {
     display: inline-block; /* Faz os itens ficarem lado a lado */
+    margin-right: 10px; /* Espaçamento entre os itens */
     
     
    
@@ -161,11 +161,11 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    padding: 10px;
-    margin-right: 10px; /* Espaçamento entre os itens */
+    padding: 10px 20px;
     color: #ffffff;
     background-color: #000000;
     border: 1px solid #000000;
+    border-radius: 15px;
 }
 
  a:link, a:visited {
@@ -189,7 +189,7 @@ a:hover, a:active {
 }
 
 .paragrafo{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poetsen One', 'regular 400';
 }
 
 .paragrafo01{
@@ -198,12 +198,13 @@ a:hover, a:active {
 }
 
 @media only screen and (max-width: 768px) {
-    
-    a{
-      display: grid;
+    nav ul {
+        flex-direction: column; /* Coloca os itens em coluna em telas menores */
     }
-    nav{
-        align-items: center;
+
+    nav ul li {
+        margin-right: 0; /* Remove o espaçamento entre os itens na vertical */
+        margin-bottom: 10px; /* Adiciona espaçamento entre os itens na vertical */
     }
 }
 .imgd{
@@ -221,3 +222,24 @@ a:hover, a:active {
       flex-direction: column;
     }
   }
+
+.textoali{
+    text-align: center;
+    font-size: 4rem;
+    color:rgb(253, 228, 0);
+    padding: 2%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: gray;
+    color:rgb(253, 228, 0);
+  }
+
+th:nth-child(even),td:nth-child(even) {
+    background-color: rgb(168, 168, 168)
+}
+.tabela{
+    margin: auto;
+}
