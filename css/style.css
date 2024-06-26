@@ -238,7 +238,7 @@ table, th, td {
   }
 
 th:nth-child(even),td:nth-child(even) {
-    background-color: rgb(168, 168, 168)
+    background-color: rgb(156, 156, 156)
 }
 .tabela{
     margin: auto;
