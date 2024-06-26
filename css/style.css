@@ -233,7 +233,7 @@ a:hover, a:active {
 table, th, td {
     border: 1px solid black;
     border-radius: 10px;
-    background-color: gray;
+    background-color: rgb(138, 138, 138);
     color:rgb(253, 228, 0);
   }
 
