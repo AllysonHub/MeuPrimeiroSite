@@ -59,7 +59,7 @@ footer{
 
 .titulo{
     text-align: center;
-    font-size: 1rem;
+    font-size: 3rem;
     padding: 2%;
     
 }
@@ -186,18 +186,9 @@ a:hover, a:active {
 
 @media screen and (max-width: 600px) {
     .linha {
-      width: 80%;
+      width: 70%;
       height: auto;
       display: flex;
       flex-direction: column;
     }
   }
-
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-    height: auto;
-  }
-}
-
