@@ -243,3 +243,21 @@ th:nth-child(even),td:nth-child(even) {
 .tabela{
     margin: auto;
 }
+.subtituloctt{
+    text-align: center;
+    font-size: 4em;
+    padding: 2% ;
+}
+.subtitulobio{
+    text-align: center;
+    font-size: 4em;
+    padding: 2%;
+    margin: 2% 2%;
+}
+.biografia{
+    padding: 2%;
+    margin: auto;
+}
+html{
+    scroll-behavior: smooth;
+}
