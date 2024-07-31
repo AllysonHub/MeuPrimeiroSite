@@ -30,13 +30,14 @@ nav{
 }
 
 main{
-    background-color: rgb(253, 228, 0);
+    background-color: rgb(255, 230, 0);
     width: 90%;
+    margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
     border: 2px solid #ffffff; /* Adiciona uma borda de 2px sólida branca */
     font-family: 'Poetsen One', 'regular 400';
-    border-radius: 20px;
+    border-radius: 10px;
       
 }
 section{
@@ -50,10 +51,14 @@ footer{
     text-align: center;
 }
 .cabecalho{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    box-sizing: border-box;
+    background-color: #000000; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto no cabeçalho */
+    width: 100%; /* Largura total */
+    position: fixed; /* Fixa o cabeçalho na parte superior */
+    top: 0; /* Alinha o cabeçalho no topo da janela */
+    z-index: 1000; /* Z-index alto para garantir que fique acima de outros conteúdos */
+    padding: 10px 0; /* Espaçamento interno (opcional) */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra suave para efeito de elevação */
 }
 .rodape{
     padding: 3%;
@@ -235,6 +240,7 @@ table, th, td {
     border-radius: 10px;
     background-color: rgb(114, 114, 114);
     color:rgb(253, 228, 0);
+    margin-bottom: 2%;
   }
 
  th:nth-child(even),td:nth-child(even) {
@@ -260,4 +266,7 @@ table, th, td {
 }
 html{
     scroll-behavior: smooth;
+}
+#github{
+    color: #fff;
 }
