@@ -233,12 +233,12 @@ a:hover, a:active {
 table, th, td {
     border: 1px solid black;
     border-radius: 10px;
-    background-color: rgb(138, 138, 138);
+    background-color: rgb(114, 114, 114);
     color:rgb(253, 228, 0);
   }
 
-th:nth-child(even),td:nth-child(even) {
-    background-color: rgb(156, 156, 156)
+ th:nth-child(even),td:nth-child(even) {
+    background-color: rgb(151, 151, 151)
 }
 .tabela{
     margin: auto;
@@ -251,8 +251,8 @@ th:nth-child(even),td:nth-child(even) {
 .subtitulobio{
     text-align: center;
     font-size: 4em;
-    padding: 2%;
-    margin: 2% 2%;
+    padding: 1%;
+    margin: 1% 1%;
 }
 .biografia{
     padding: 2%;
