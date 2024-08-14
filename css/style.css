@@ -30,7 +30,7 @@ nav{
 }
 
 main{
-    background-color: rgb(255, 230, 0);
+    background-color: rgb(253, 228, 0);
     width: 90%;
     margin-top: 10%;
     margin-left: auto;
@@ -269,4 +269,88 @@ html{
 }
 #github{
     color: rgb(253, 228, 0);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#titulo{
+    font-family: sans-serif;
+    color: #004987;
+    margin-left: 7%;
+}
+#subtitulo{
+    font-family: sans-serif;
+    color: #004987;
+    margin-left: 10%;   
+}
+/*=======================================FORMS======================================================*/
+.form{
+    align-items: center;
+    align-content: center;
+}
+
+fieldset{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+input, select, textarea, button{
+    border-radius: 5px;
+}
+.campo{
+    margin-bottom: 1em;
+
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color: rgb(253, 228, 0);
+    display: block;
+}
+fieldset.grupo .campo{
+    margin: auto;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
+    padding: 0.2em;
+    border: 1px solid #004987;
+    box-shadow: 2px 2px 2px #002D82;
+    display: block;
+}
+
+.campo select option{
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background: rgb(253, 228, 0);
+}
+
+.botao{
+    font-size: 1.2em;
+    background:rgb(253, 228, 0);
+    border: 0;
+    margin-bottom: 1em;
+    color: #001A5F;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px #001A5F;
+    text-shadow: 1px 1px 1px #002A7C;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.botao:hover{
+    background: rgba(253, 173, 0, 0.993);
+    box-shadow: inset 2px 2px 2px #ffee00;
+    text-shadow: none;
+
+}
+
+#check{
+    display: inline-block;
 }
